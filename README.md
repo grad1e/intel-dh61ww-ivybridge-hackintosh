@@ -4,7 +4,7 @@ This build is based on the vanilla installation guide found [here](https://hacki
 If you do not have a mac at hand, you can follow this [guide](https://internet-install.gitbook.io/macos-internet-install/).
 ![About this Mac](https://imgur.com/3m5JwZR.png)
 
-##Hardware
+## Hardware
 * CPU - Intel Core i5 3330 (IvyBridge)
 * Mobo - Intel DH61WW
 	* LAN - Intel 82579V Gigabit Ethernet
@@ -13,7 +13,7 @@ If you do not have a mac at hand, you can follow this [guide](https://internet-i
 * GPU - Sapphire RX580 Pulse 8GB DDR5
 * SSD - AData SU650 240GB
 
-###Working
+### Working
 * Audio
 * Ethernet
 * APFS
@@ -22,26 +22,26 @@ If you do not have a mac at hand, you can follow this [guide](https://internet-i
 * AppStore
 * iCloud
 
-###Not working / Haven't tested
+### Not working / Haven't tested
 * DRM (Trailers work in TV.app. But while playing an actual episode the screen will be red).
 * iMessage - Haven't tested (I don't use it) 
 * AirDrop / HandOff - Haven't tested (No WiFi/Bluetooth card installed. Will work once a compatible card is installed)
 
-##BIOS Config
+## BIOS Config
 * Flash the latest BIOS
 * Load Optimised Defaults
 * Disable Legacy Boot
 * Disable Secure Boot
 * Disable iGPU (only if your iGPU is unsupported under macOS)
 
-##Drivers Used
+## Drivers Used
 * ApfsDriverLoader
 * FwRuntimeServices
 * HfsPlus
 * OcQuirks
 * SMCHelper
 
-##Kexts Used
+## Kexts Used
 * Lilu
 * WhateverGreen
 * IntelMausi
@@ -49,7 +49,7 @@ If you do not have a mac at hand, you can follow this [guide](https://internet-i
 * FakeSMC
 * AppleALC
 
-##Tools used
+## Tools used
 * [Dids' Clover](https://github.com/Dids/clover-builder/releases)
 * [gibMacOS](https://github.com/corpnewt/gibMacOS) - Python script for downloading macOS installers from the apple servers.
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) - Tool used for editing config.plist.
@@ -57,7 +57,7 @@ If you do not have a mac at hand, you can follow this [guide](https://internet-i
 * [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) - Python script for generating Serial Number, SmUUID, and MLB based on the given SMBIOS.
 * [ssdtPRGen](https://github.com/Piker-Alpha/ssdtPRGen.sh) - Script for generating SSDT.aml which contains the necessary power management data for the CPU 
 
-##Notes
+## Notes
 * Always use the latest version of Clover (r5099 as of writing).
 * **DO NOT** copy-paste this config.plist entirely. Use this for reference while making yours a new one.
 * While setting up Clover, use `OcQuirks` and `FwRuntimeServices` instead of `AptioMemoryFix`.
@@ -73,7 +73,7 @@ If you do not have a mac at hand, you can follow this [guide](https://internet-i
 * If you're using a SATA SSD, enable TRIM otherwise APFS corruption might occur and you'll have to reinstall macOS again. You can check if TRIM is enabled by opening About this Mac -> System Report -> SATA/SATA Express -> Your SSD -> Trim Support.  
 If it's not enabled, enable it by running `sudo trimforce enable` under Terminal. I've enabled TRIM via config.plist so it should work.
 
-##Credits
+## Credits
 * Thanks [u/corpnewt](https://github.com/corpnewt) for the guides and tools for making it easier to NOOBS like us.
 * Thanks to [r/hackintosh](https://www.reddit.com/r/hackintosh/) for the support
 * Thanks to [HackintoshParadise Discord](https://discord.gg/u8V7N5C) for the support
