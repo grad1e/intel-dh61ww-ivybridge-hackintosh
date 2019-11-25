@@ -61,7 +61,7 @@ If you do not have a mac at hand, you can follow this [guide](https://internet-i
 * Always use the latest version of Clover (r5099 as of writing).
 * **DO NOT** copy-paste this config.plist entirely. Use this for reference while making yours a new one.
 * While setting up Clover, use `OcQuirks` and `FwRuntimeServices` instead of `AptioMemoryFix`.
-* Since the motherboard I have is 6-series and the CPU is Ivy Bridge, I've faked IMEI in the config.plist as per u/corpnewt guide. If both of your CPU and motherboard is based on IvyBridge, ignore it `config.plist -> Devices -> FakeID`.
+* Since the motherboard I have is 6-series and the CPU is Ivy Bridge, I've faked IMEI in the config.plist as per u/corpnewt guide. If both CPU and motherboard is based on IvyBridge, ignore it `config.plist -> Devices -> FakeID`.
 * Since my iGPU (HD2500) is unsupported in macOS I've disabled it under the BIOS and have ignored the framebuffer patching under config.plist -> Devices -> Properties. I have offloaded both H.264 and HEVC encoding to the GPU by using the boot args `shikigva=32 shiki-id=Mac-7BA5B2D9E42DDD94`.
 	* shikigva=32 -> Changes the board ID.
 	* shiki-id=Mac-7BA5B2D9E42DDD94 -> Uses the board id of iMacPro1,1.  
