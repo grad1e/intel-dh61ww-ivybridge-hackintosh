@@ -3,7 +3,7 @@
 This build is based on the vanilla installation guide found [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/). It requires a computer with macOS installed (either a virtual machine or a legit mac).
 If you do not have a mac at hand, you can follow this [guide](https://internet-install.gitbook.io/macos-internet-install/).
 ![About this Mac](https://imgur.com/3m5JwZR.png)
-![Neofetch](https://imgur.com/hwoUu5L.png)
+![Neofetch](https://imgur.com/33nx527.png)
 
 ## Hardware
 * CPU - Intel Core i5 3330 (IvyBridge)
