@@ -3,6 +3,7 @@
 This build is based on the vanilla installation guide found [here](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/). It requires a computer with macOS installed (either a virtual machine or a legit mac).
 If you do not have a mac at hand, you can follow this [guide](https://internet-install.gitbook.io/macos-internet-install/).
 ![About this Mac](https://imgur.com/3m5JwZR.png)
+![Neofetch](https://imgur.com/hwoUu5L.png)
 
 ## Hardware
 * CPU - Intel Core i5 3330 (IvyBridge)
@@ -27,21 +28,21 @@ If you do not have a mac at hand, you can follow this [guide](https://internet-i
 * iMessage - Haven't tested (I don't use it) 
 * AirDrop / HandOff - Haven't tested (No WiFi/Bluetooth card installed. Will work once a compatible card is installed)
 
-## BIOS Config
+## BIOS config
 * Flash the latest BIOS
 * Load Optimised Defaults
 * Disable Legacy Boot
 * Disable Secure Boot
 * Disable iGPU (only if your iGPU is unsupported under macOS)
 
-## Drivers Used
+## Drivers used
 * ApfsDriverLoader
 * FwRuntimeServices
 * HfsPlus
 * OcQuirks
 * SMCHelper
 
-## Kexts Used
+## Kexts used
 * Lilu
 * WhateverGreen
 * IntelMausi
